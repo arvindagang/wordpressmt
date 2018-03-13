@@ -1,0 +1,17 @@
+•Cloning the wordpress
+
+1. Clone the repository
+	Files:
+	-wordpress
+	-webtechmt.sql
+
+2. Copy wordpress from the local repository to C:\wamp64\www
+
+3. In phpmyadmin
+	create a database named "webtechmt"
+	click the tab of the database then click import
+	choose the file of the database (webtechmt.sql)
+
+4. Open browser and go to localhost/wordpress/wp-login
+	-input the necessary username and password
+

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 13, 2018 at 05:44 AM
+-- Generation Time: Mar 13, 2018 at 06:26 AM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -554,7 +554,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (13, 1, 'wp_user_level', '10'),
 (14, 1, 'dismissed_wp_pointers', ''),
 (15, 1, 'show_welcome_panel', '1'),
-(16, 1, 'session_tokens', 'a:2:{s:64:"0c37e55bc71ca2445efc93c25ac347fca228b5699cf940c972a86e8df3be7249";a:4:{s:10:"expiration";i:1521036083;s:2:"ip";s:3:"::1";s:2:"ua";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36";s:5:"login";i:1520863283;}s:64:"05a25d74963e8bff9ca4780f3ce657dbf3dba7ecd8dbd27bbba8825e5d0169cd";a:4:{s:10:"expiration";i:1521092114;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36";s:5:"login";i:1520919314;}}'),
+(16, 1, 'session_tokens', 'a:1:{s:64:"0c37e55bc71ca2445efc93c25ac347fca228b5699cf940c972a86e8df3be7249";a:4:{s:10:"expiration";i:1521036083;s:2:"ip";s:3:"::1";s:2:"ua";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36";s:5:"login";i:1520863283;}}'),
 (17, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (18, 1, 'community-events-location', 'a:1:{s:2:"ip";s:2:"::";}'),
 (19, 2, 'nickname', 'prins'),
@@ -570,7 +570,49 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (29, 2, 'locale', ''),
 (30, 2, 'wp_capabilities', 'a:1:{s:13:"administrator";b:1;}'),
 (31, 2, 'wp_user_level', '10'),
-(32, 2, 'dismissed_wp_pointers', '');
+(32, 2, 'dismissed_wp_pointers', ''),
+(33, 3, 'nickname', 'ervszz'),
+(34, 3, 'first_name', 'ervin'),
+(35, 3, 'last_name', 'fernandez'),
+(36, 3, 'description', ''),
+(37, 3, 'rich_editing', 'true'),
+(38, 3, 'syntax_highlighting', 'true'),
+(39, 3, 'comment_shortcuts', 'false'),
+(40, 3, 'admin_color', 'fresh'),
+(41, 3, 'use_ssl', '0'),
+(42, 3, 'show_admin_bar_front', 'true'),
+(43, 3, 'locale', ''),
+(44, 3, 'wp_capabilities', 'a:1:{s:13:"administrator";b:1;}'),
+(45, 3, 'wp_user_level', '10'),
+(46, 3, 'dismissed_wp_pointers', ''),
+(47, 4, 'nickname', 'Genrie'),
+(48, 4, 'first_name', 'Genrie'),
+(49, 4, 'last_name', 'Gayaso'),
+(50, 4, 'description', ''),
+(51, 4, 'rich_editing', 'true'),
+(52, 4, 'syntax_highlighting', 'true'),
+(53, 4, 'comment_shortcuts', 'false'),
+(54, 4, 'admin_color', 'fresh'),
+(55, 4, 'use_ssl', '0'),
+(56, 4, 'show_admin_bar_front', 'true'),
+(57, 4, 'locale', ''),
+(58, 4, 'wp_capabilities', 'a:1:{s:13:"administrator";b:1;}'),
+(59, 4, 'wp_user_level', '10'),
+(60, 4, 'dismissed_wp_pointers', ''),
+(61, 5, 'nickname', 'jpsese'),
+(62, 5, 'first_name', 'John Patrick'),
+(63, 5, 'last_name', 'Sese'),
+(64, 5, 'description', ''),
+(65, 5, 'rich_editing', 'true'),
+(66, 5, 'syntax_highlighting', 'true'),
+(67, 5, 'comment_shortcuts', 'false'),
+(68, 5, 'admin_color', 'fresh'),
+(69, 5, 'use_ssl', '0'),
+(70, 5, 'show_admin_bar_front', 'true'),
+(71, 5, 'locale', ''),
+(72, 5, 'wp_capabilities', 'a:1:{s:13:"administrator";b:1;}'),
+(73, 5, 'wp_user_level', '10'),
+(74, 5, 'dismissed_wp_pointers', '');
 
 -- --------------------------------------------------------
 
@@ -597,7 +639,10 @@ CREATE TABLE `wp_users` (
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'arvindagang', '$P$BEB0WBunkM4cSRWOXLyebXltkm.lfk0', 'arvindagang', 'arvin.dagang09@gmail.com', '', '2018-03-12 14:00:40', '', 0, 'arvindagang'),
-(2, 'prins', '$P$BYW1HEHazr3JBhpFLFFltIlieMpiZe1', 'prins', '2165729@slu.edu.ph', '', '2018-03-13 05:35:43', '1520919344:$P$BMYZNk7Eeca5DEPqb.Vli2wJFMB.gV0', 0, 'prins onate');
+(2, 'prins', '$P$BoRLS0h.k6VFwv2s1sXQZtUP0Ngfhd1', 'prins', '2165729@slu.edu.ph', '', '2018-03-13 05:35:43', '1520919344:$P$BMYZNk7Eeca5DEPqb.Vli2wJFMB.gV0', 0, 'prins onate'),
+(3, 'ervszz', '$P$BN.ueOsIRsgdR1hqqYF5gW4OP8xnIR.', 'ervszz', '2166348@slu.edu.ph', '', '2018-03-13 06:23:31', '1520922212:$P$BaNAHcTyOJlE/1YERWNydyQfk7W1oe.', 0, 'ervin fernandez'),
+(4, 'Genrie', '$P$BmTP8wQD377KLJ2j14IIm4dotLDCk4.', 'genrie', '2167978@slu.edu.ph', '', '2018-03-13 06:24:09', '1520922250:$P$BYB/Fq.C6jsx6pb/ayti4KCIUsMVhB/', 0, 'Genrie Gayaso'),
+(5, 'jpsese', '$P$BsOhcEgwFD1MiE/OODWxMdSioKlGDg0', 'jpsese', 'jdumo1201@gmail.com', '', '2018-03-13 06:24:38', '1520922279:$P$BYZ0dMWIQ.GnpYmBIflG6fipD7zDPI/', 0, 'John Patrick Sese');
 
 --
 -- Indexes for dumped tables
@@ -755,12 +800,12 @@ ALTER TABLE `wp_term_taxonomy`
 -- AUTO_INCREMENT for table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
 --
 -- AUTO_INCREMENT for table `wp_users`
 --
 ALTER TABLE `wp_users`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
